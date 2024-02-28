@@ -2,8 +2,8 @@
 Deploy demo app on AWS serverless by utilizing API gateway, python lambda function, and RDS resources
 
 ## Requirements
-Install terraform cli [terraform](https://www.hashicorp.com/blog/announcing-the-hashicorp-linux-repository) on Linux.
-Install AWS CLI [AWS CLI] (https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#cliv2-linux-install)
+* Install terraform cli [terraform](https://www.hashicorp.com/blog/announcing-the-hashicorp-linux-repository) on Linux.
+* Install AWS CLI [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#cliv2-linux-install)
 
 ## Steps
 
