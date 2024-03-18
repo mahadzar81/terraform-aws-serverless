@@ -4,6 +4,7 @@ Deploy demo app on AWS serverless by utilizing API gateway, python lambda functi
 ## Requirements
 * Install terraform cli [terraform](https://www.hashicorp.com/blog/announcing-the-hashicorp-linux-repository) on Linux.
 * Install AWS CLI [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#cliv2-linux-install)
+* Terraform Remote State Backend with AWS S3 and DynamoDB  [How to create a Terraform S3 backend](https://hackernoon.com/deploying-a-terraform-remote-state-backend-with-aws-s3-and-dynamodb)
 
 ## Steps
 
