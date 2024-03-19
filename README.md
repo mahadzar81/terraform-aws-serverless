@@ -32,6 +32,27 @@ count_instance = 1
 user = "admin"
 key_pair_id = "~/.ssh/id_rsa.pub"
 ```
+## To verify
+
+Register cognito-idp admin credential permanently using AWS CLI
+
+```
+ aws cognito-idp admin-set-user-password --user-pool-id <region endpoint> --username <username> --password <credential> --permanent
+```
+
+To test calling API gateway, first we need to get Bearer access_token from AWS Cognito IDP by using curl command
+
+```
+ curl --request POST --url https://cognito-idp.<regions>.amazonaws.com/<region end point> --header 'content-type: application/x-amz-json-1.1' --header 'x-amz-target: AWSCognitoIdentityProviderService.InitiateAuth' --data '{ "AuthParameters" : {"USERNAME" : "<username>", "PASSWORD" : "password"},"AuthFlow" : "USER_PASSWORD_AUTH","ClientId" : "<client ID>"}'
+```
+
+Call AWS Gateway using curl command
+
+```
+curl -X GET https://<rest-api-id>.execute-api.<region>.amazonaws.com/<stage>/ \
+-H 'authorization: Bearer <access_token>' \
+-H 'content-type: application/json'
+```
 
 ## License
 
