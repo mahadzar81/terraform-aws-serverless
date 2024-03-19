@@ -1,0 +1,7 @@
+backup_type = full-prepared
+from_lsn = 0
+to_lsn = 69858679
+last_lsn = 69858679
+flushed_lsn = 69858679
+redo_memory = 0
+redo_frames = 0
