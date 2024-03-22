@@ -56,13 +56,13 @@ curl -X GET https://<rest-api-id>.execute-api.<region>.amazonaws.com/<stage>/ \
 
 ## Modules
 
-| Name |
-|------|
-|[AWS API Gateway v2 (HTTP/Websocket) Terraform module](https://github.com/terraform-aws-modules/terraform-aws-apigateway-v2) |
-|[AWS Lambda Terraform module](https://github.com/terraform-aws-modules/terraform-aws-lambda) |
-|[AWS RDS Terraform module](https://github.com/terraform-aws-modules/terraform-aws-rds) |
-|[AWS VPC Terraform module](https://github.com/terraform-aws-modules/terraform-aws-vpc) |
-|[AWS S3 bucket Terraform module](https://github.com/terraform-aws-modules/terraform-aws-s3-bucket) |
+| Name | Description |  
+|------| ------|
+|[API Gateway](https://github.com/terraform-aws-modules/terraform-aws-apigateway-v2) | AWS API Gateway v2 (HTTP/Websocket) Terraform module |
+|[AWS Lambda](https://github.com/terraform-aws-modules/terraform-aws-lambda) | AWS Lambda Terraform module |
+|[AWS RDS](https://github.com/terraform-aws-modules/terraform-aws-rds) | AWS RDS Terraform module |
+|[AWS VPC](https://github.com/terraform-aws-modules/terraform-aws-vpc) | AWS VPC Terraform module |
+|[AWS S3](https://github.com/terraform-aws-modules/terraform-aws-s3-bucket) | AWS S3 bucket Terraform module |
 
 
 ## License
